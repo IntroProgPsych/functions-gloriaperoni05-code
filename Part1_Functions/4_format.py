@@ -3,3 +3,10 @@
 # Ask the user for their name and print the returned message.
     
 # Write your code here:
+def greet_person(name):
+	return f"Hello, {name}!"
+
+
+# Ask the user for their name and print the returned message.
+name = input("Input: ")
+print(greet_person(name))
