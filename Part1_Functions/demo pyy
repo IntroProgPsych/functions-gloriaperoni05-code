@@ -1,0 +1,19 @@
+
+
+
+
+
+
+def first_function(name, age):
+    print("Hello {name}")
+    print("You are {age} years old")
+
+first_function("Ion",38)
+first_function("Dina", 40)
+
+def full_name(first_name, second_name):
+    return first_name +""+ second_name
+
+    print(full_name("Alex","Ionascu"))
+
+    
